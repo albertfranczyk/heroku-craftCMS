@@ -19,6 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
+    "php": "7.2.27", 
     "ext-mbstring": "*",
     "ext-imagick": "*",
     "craftcms/cms": "^3.4.0",
@@ -37,7 +38,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.0"
+      "php": "7.2.27" 
     }
   },
   "scripts": {
