@@ -19,11 +19,10 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "php": "7.2.27",
     "ext-mbstring": "*",
+    "ext-imagick": "*",
     "craftcms/cms": "^3.4.0",
     "craftcms/redactor": "^2.1",
-    "imagine/imagine": "^1.2",
     "nystudio107/craft-twigprofiler": "^1.0",
     "putyourlightson/craft-blitz": "^1.4",
     "tomdiggle/craft-gatekeeper": "^1.0",
@@ -38,7 +37,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.2.27"
+      "php": "7.0"
     }
   },
   "scripts": {
