@@ -21,9 +21,9 @@
   "require": {
     "php": "7.2.27",
     "ext-mbstring": "*",
-    "calcinai/php-imagick": "^0.1.2",
     "craftcms/cms": "^3.4.0",
     "craftcms/redactor": "^2.1",
+    "imagine/imagine": "^1.2",
     "nystudio107/craft-twigprofiler": "^1.0",
     "putyourlightson/craft-blitz": "^1.4",
     "tomdiggle/craft-gatekeeper": "^1.0",
