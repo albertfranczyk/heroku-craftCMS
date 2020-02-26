@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccccc685322fbfcf72f11bb0e0bb99a7",
+    "content-hash": "8473d1e9442630bd3949b8e8219068e9",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -508,6 +508,54 @@
                 "plugin"
             ],
             "time": "2019-05-23T13:16:39+00:00"
+        },
+        {
+            "name": "craftcms/redactor",
+            "version": "2.6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/redactor.git",
+                "reference": "c8cc5b6bd6ac0258666744a4a530496da8d966c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/c8cc5b6bd6ac0258666744a4a530496da8d966c3",
+                "reference": "c8cc5b6bd6ac0258666744a4a530496da8d966c3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.4.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "documentationUrl": "https://github.com/craftcms/redactor/blob/v2/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "Redactor",
+                "cms",
+                "craftcms",
+                "html",
+                "yii2"
+            ],
+            "time": "2020-02-17T15:25:01+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -2014,6 +2062,60 @@
             "time": "2019-11-08T13:50:10+00:00"
         },
         {
+            "name": "nystudio107/craft-twigprofiler",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-twigprofiler.git",
+                "reference": "154a916dd585884a1997537662a91d010bc1c880"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-twigprofiler/zipball/154a916dd585884a1997537662a91d010bc1c880",
+                "reference": "154a916dd585884a1997537662a91d010bc1c880",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Twig Profiler",
+                "handle": "twig-profiler",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-twigprofiler/master/CHANGELOG.md",
+                "components": {
+                    "profile": "nystudio107\\twigprofiler\\services\\Profile"
+                },
+                "class": "nystudio107\\twigprofiler\\TwigProfiler"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\twigprofiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "Twig Profiler allows you to profile sections of your Twig templates, and see the resulting timings in the Yii2 Debug Toolbar",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "twig profiler"
+            ],
+            "time": "2019-06-12T19:00:32+00:00"
+        },
+        {
             "name": "opis/closure",
             "version": "3.5.1",
             "source": {
@@ -2652,6 +2754,58 @@
                 "shell"
             ],
             "time": "2019-12-06T14:19:43+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-blitz",
+            "version": "1.11.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/putyourlightson/craft-blitz.git",
+                "reference": "d8be3a7e97db3ab673c78b2749924ef353986d1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-blitz/zipball/d8be3a7e97db3ab673c78b2749924ef353986d1e",
+                "reference": "d8be3a7e97db3ab673c78b2749924ef353986d1e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0",
+                "ext-json": "*"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Blitz",
+                "handle": "blitz",
+                "developer": "PutYourLightsOn",
+                "developerUrl": "https://putyourlightson.com/",
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-blitz/v1/CHANGELOG.md",
+                "class": "putyourlightson\\blitz\\Blitz",
+                "schemaVersion": "1.11.2",
+                "hasCpSettings": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\blitz\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Intelligent static file caching for creating lightning-fast sites.",
+            "homepage": "https://github.com/putyourlightson/craft-blitz",
+            "keywords": [
+                "Craft",
+                "cache",
+                "caching",
+                "cms",
+                "craftcms",
+                "performance",
+                "plugin",
+                "speed"
+            ],
+            "time": "2019-02-14T11:59:16+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3706,6 +3860,57 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2017-07-23T12:43:26+00:00"
+        },
+        {
+            "name": "tomdiggle/craft-gatekeeper",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tomdiggle/craft-gatekeeper.git",
+                "reference": "0d740ddbb68fdfc62b267087aaefc7502355de21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tomdiggle/craft-gatekeeper/zipball/0d740ddbb68fdfc62b267087aaefc7502355de21",
+                "reference": "0d740ddbb68fdfc62b267087aaefc7502355de21",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Gatekeeper",
+                "handle": "gatekeeper",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/tomdiggle/craft-gatekeeper/v1/CHANGELOG.md",
+                "class": "tomdiggle\\gatekeeper\\Gatekeeper"
+            },
+            "autoload": {
+                "psr-4": {
+                    "tomdiggle\\gatekeeper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Diggle",
+                    "homepage": "http://tomdiggle.com"
+                }
+            ],
+            "description": "Protect your Craft CMS website from access with a universal password.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "gatekeeper"
+            ],
+            "time": "2019-06-03T14:49:06+00:00"
         },
         {
             "name": "true/punycode",
@@ -4944,6 +5149,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "php": "7.0.0",
         "ext-mbstring": "*"
     },
     "platform-dev": [],
