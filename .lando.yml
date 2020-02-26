@@ -1,0 +1,7 @@
+name: heroku-craft
+recipe: lamp
+config:
+  webroot: web
+  php: '7.2'
+  database: mariadb:10.2
+
