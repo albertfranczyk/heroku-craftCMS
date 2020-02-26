@@ -5,44 +5,38 @@
  * All of your system's general configuration settings go in here. You can see a
  * list of the available settings in vendor/craftcms/cms/src/config/GeneralConfig.php.
  *
- * @see \craft\config\GeneralConfig
+ * @see craft\config\GeneralConfig
  */
 
 return [
     // Global settings
     '*' => [
-        // Default Week Start Day (0 = Sunday, 1 = Monday...)
-        'defaultWeekStartDay' => 1,
+      // Default Week Start Day (0 = Sunday, 1 = Monday...)
+      'defaultWeekStartDay' => 1,
 
-        // Whether generated URLs should omit "index.php"
-        'omitScriptNameInUrls' => true,
+      // Enable CSRF Protection (recommended)
+      'enableCsrfProtection' => true,
 
-        // Control Panel trigger word
-        'cpTrigger' => 'admin',
+      // Whether generated URLs should omit "index.php"
+      'omitScriptNameInUrls' => true,
 
-        // The secure key Craft will use for hashing and encrypting data
-        'securityKey' => getenv('SECURITY_KEY'),
+      // Control Panel trigger word
+      'cpTrigger' => 'admin',
 
-        // Whether to save the project config out to config/project.yaml
-        // (see https://docs.craftcms.com/v3/project-config.html)
-        'useProjectConfigFile' => false,
+      // The secure key Craft will use for hashing and encrypting data
+      'securityKey' => getenv('SECURITY_KEY'),
+      
+      //Headless Mode
+      'headlessMode' => true,
     ],
 
     // Dev environment settings
     'dev' => [
-        // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
-        'devMode' => true,
-    ],
-
-    // Staging environment settings
-    'staging' => [
-        // Set this to `false` to prevent administrative changes from being made on staging
-        'allowAdminChanges' => true,
+      'devMode' => true, // Dev Mode (see https://craftcms.com/support/dev-mode)
     ],
 
     // Production environment settings
     'production' => [
-        // Set this to `false` to prevent administrative changes from being made on production
-        'allowAdminChanges' => true,
+      'siteUrl' => null, // setup your URL for production
     ],
 ];
