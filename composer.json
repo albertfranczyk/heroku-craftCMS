@@ -19,9 +19,9 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
+    "ext-mbstring": "*",
     "craftcms/cms": "^3.4.0",
-    "vlucas/phpdotenv": "^3.4.0",
-    "ext-mbstring": "*"
+    "vlucas/phpdotenv": "^3.4.0"
   },
   "autoload": {
     "psr-4": {
